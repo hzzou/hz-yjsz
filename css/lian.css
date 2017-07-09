@@ -1,0 +1,176 @@
+header {
+  width: 100%;
+  height: 1.17333333rem;
+  position: relative;
+  background: #db584e;
+  color: #fff;
+}
+header h1 {
+  width: 100%;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  text-align: center;
+  font-size: 0.48rem;
+  font-weight: normal;
+}
+header .left {
+  display: inline-block;
+  width: 1.17333333rem;
+  height: 1.17333333rem;
+  background: url("../img/u_22.png") no-repeat center center;
+  background-size: 0.66666667rem 0.66666667rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+header .right {
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  font-size: 0.32rem;
+}
+.sec_1 {
+  width: 100%;
+}
+.sec_1 .list {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  background: #fff;
+}
+.sec_1 .list li {
+  width: 100%;
+  box-sizing: border-box;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  border-bottom: 1px solid #eee;
+}
+.sec_1 .list li select {
+  background: #fff;
+  height: 0.53333333rem;
+}
+.sec_1 .list li .select_1 {
+  margin-left: 0.4rem;
+  font-size: 0.37333333rem;
+  color: #999;
+}
+.sec_1 .list li p {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+.sec_1 .list li p .sp_1 {
+  float: left;
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+}
+.sec_1 .list li p input {
+  font-size: 0.32rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  color: #999;
+  margin-left: 0.4rem;
+  float: left;
+}
+.sec_1 .list li:nth-last-of-type(2) {
+  height: 2.66666667rem;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail {
+  width: 100%;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail select {
+  width: 1.6rem;
+  height: 0.53333333rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail .first,
+.sec_1 .list li:nth-last-of-type(2) #detail .second,
+.sec_1 .list li:nth-last-of-type(2) #detail .third,
+.sec_1 .list li:nth-last-of-type(2) #detail .four {
+  font-size: 0.32rem;
+  color: #999;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail .first {
+  margin-left: 0.4rem;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail .second,
+.sec_1 .list li:nth-last-of-type(2) #detail .third,
+.sec_1 .list li:nth-last-of-type(2) #detail .four {
+  margin-left: 0.26666667rem;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail_1 {
+  width: 100%;
+  height: 1.28rem;
+}
+.sec_1 .list li:nth-last-of-type(2) #detail_1 #de {
+  margin-left: 0.4rem;
+  height: 1.28rem;
+  resize: none;
+  font-size: 0.32rem;
+  color: #5d5f6a;
+}
+.sec_1 .list li:nth-last-of-type(1) {
+  height: 2.34666667rem;
+  border: none;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 p {
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+  position: absolute;
+  top: 0.66666667rem;
+  left: 0;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 span {
+  position: absolute;
+  font-size: 0.32rem;
+  top: 1.2rem;
+  left: 0;
+  color: #999;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 .upload {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  background: url("../img/u_30.png") no-repeat center center;
+  background-size: 1.6rem 1.6rem;
+  color: #fff;
+  top: 0.26666667rem;
+  right: 0.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 .upload input {
+  opacity: 0;
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  right: 0;
+  top: 0;
+}
+.sec_1 .list li:nth-last-of-type(1) .div_1 .upload img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sec_1 .div_2 {
+  width: 100%;
+  margin-top: 0.42666667rem;
+  margin-bottom: 0.85333333rem;
+  text-align: center;
+}
+.sec_1 .div_2 .btn_2 {
+  width: 9.14666667rem;
+  height: 1.33333333rem;
+  border: none;
+  border-radius: 0.10666667rem;
+  font-size: 0.42666667rem;
+  background: #db584e;
+  color: #fff;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>登录</title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-mvalidate.js"></script>
+</head>
+<body>
+
+<div class="mui-content wrap mui-row">
+    <header>
+        <h1>登录</h1>
+    </header>
+    <form id='form_1' class="mui-input-group">
+        <div class="mui-input-row div_1">
+            <input id='account' data-validate="account" data-describedby="account-description" type="tel" class="mui-input tel" placeholder="请输入手机号" maxlength="11">
+        </div>
+        <div id="account-description"></div>
+        <div class="mui-input-row div_2">
+            <input id='password' data-validate="password" data-describedby="password-description" type="password" class="mui-input pass_1" placeholder="请输6-14位入密码" maxlength="14">
+        </div>
+        <div id="password-description"></div>
+        <div class="link-area div_4">
+            <ul>
+                <li><a href="regi.html">注册</a></li>
+                <li><a href="change.html">忘记密码</a></li>
+            </ul>
+        </div>
+        <div class="div_3">
+            <button type="submit" id="login">立即登录</button>
+        </div>
+    </form>
+    <div class="div_5">
+        <div class="wrap_btn">
+            <button type="button" id="auth" class="btn_w "></button>
+        </div>
+        <p>微信授权登录</p>
+    </div>
+
+</div>
+<script src="../js/mui.min.js"></script>
+<script src="../js/login.js"></script>
+</body>
+
+</html>

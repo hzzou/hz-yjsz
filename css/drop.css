@@ -1,0 +1,55 @@
+.dropload-up,
+.dropload-down {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  font-size: 0.375rem;
+  /* 开启硬件加速 */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.dropload-down {
+  height: 1.5625rem;
+}
+.dropload-refresh,
+.dropload-update,
+.dropload-load,
+.dropload-noData {
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  text-align: center;
+}
+.dropload-load .loading {
+  display: inline-block;
+  height: 0.46875rem;
+  width: 0.46875rem;
+  border-radius: 100%;
+  margin: 0.1875rem;
+  border: 0.0625rem solid #666;
+  border-bottom-color: transparent;
+  vertical-align: middle;
+  -webkit-animation: rotate 0.75s linear infinite;
+  animation: rotate 0.75s linear infinite;
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

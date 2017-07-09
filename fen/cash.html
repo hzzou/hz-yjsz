@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cash.css">
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery.livequery.js"></script>
+    <title>提现</title>
+</head>
+<body>
+    <header>
+        <h1><span class="left mui-action-back"></span>积分提现</h1>
+    </header>
+    <section class="sec_1">
+        <div class="banner">
+            <ul class="list">
+                <li>1.申请提现金额必须为100及100的整数倍；</li>
+                <li>2.提现金额的手续费为10%，另外30%的金额转换为购物点；</li>
+                <li>3.提现转换的购物点可以作为现金(1:1)购买商品；</li>
+                <li>4.提现后，通过系统审核(1-3个工作日内)，发放至对应提现账户;</li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec_2">
+        <ul class="list">
+            <li><span>200.00</span><span>可提金额</span></li>
+            <li><span>230</span><span>当前积分</span></li>
+        </ul>
+        <div class="div_1">
+            <label>提现金额</label>
+            <input id="cash" type="tel" placeholder="请输入提现金额" maxlength="10" pattern="\d*">
+        </div>
+        <div class="div_2">
+            <h2>提现到</h2>
+            <ul class="list_2">
+                <li id="wei">
+                    <span class="radio"></span>
+                    <span id="weixin">微信</span>
+                </li>
+                <li id="zhi">
+                    <span class="radio"></span>
+                    <span id="alipay">支付宝</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec_3">
+        <div class="div_1">
+            <button type="button">确认提现</button>
+        </div>
+    </section>
+    <!--<section class="alert">
+        <h2><span class="left">提现到微信账户:</span><span class="right"></span></h2>
+        <div class="div_1">
+            <img src="../img/u_2.png" alt="">
+            <p><span class="name">乐可可</span><span class="weixin">(微信号:kingli)</span></p>
+        </div>
+        <div class="div_2">
+            <button type="button">确认提现</button>
+        </div>
+    </section>-->
+    <!--<div class="div_z"></div>-->
+    <script src="../js/cash.js"></script>
+</body>
+</html>

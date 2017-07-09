@@ -1,0 +1,314 @@
+header {
+  width: 100%;
+  height: 1.17333333rem;
+  background: #db584e;
+}
+header h1 {
+  width: 100%;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  text-align: center;
+  font-weight: normal;
+  position: relative;
+  font-size: 0.48rem;
+  color: #fff;
+}
+header h1 .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 1.17333333rem;
+  height: 1.17333333rem;
+  background: url("../img/u_22.png") no-repeat center center;
+  background-size: 0.66666667rem 0.66666667rem;
+}
+.sec_1 {
+  background: #fff;
+  width: 100%;
+}
+.sec_1 h2 {
+  width: 100%;
+  height: 0.93333333rem;
+  line-height: 0.72rem;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  padding-top: 0.21333333rem;
+  background: #f0f0f0;
+  color: #5d5f6a;
+  font-size: 0.32rem;
+}
+.sec_1 .div_1 {
+  width: 100%;
+  height: 1.81333333rem;
+  border-bottom: 1px solid #eee;
+}
+.sec_1 .div_1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 1.81333333rem;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  position: relative;
+  color: #5d5f6a;
+  font-size: 0.37333333rem;
+}
+.sec_1 .div_1 a:hover {
+  text-decoration: none;
+}
+.sec_1 .div_1 a img {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  position: absolute;
+  top: 0.26666667rem;
+  right: 1.06666667rem;
+  border-radius: 50%;
+}
+.sec_1 .div_1 a input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4rem;
+  height: 1.81333333rem;
+  z-index: 3;
+  opacity: 0;
+}
+.sec_1 .div_1 a span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.06666667rem;
+  height: 1.81333333rem;
+  z-index: 1;
+  background: url(../img/u_17.png) no-repeat center center;
+  background-size: 0.21333333rem 0.42666667rem;
+}
+.sec_1 .list_1 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+}
+.sec_1 .list_1 li {
+  width: 100%;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  position: relative;
+  font-size: 0.37333333rem;
+}
+.sec_1 .list_1 li:first-of-type {
+  border-bottom: 1px solid #eee;
+}
+.sec_1 .list_1 li .nicheng_1,
+.sec_1 .list_1 li .ph {
+  color: #5d5f6a;
+  position: absolute;
+  left: 0;
+}
+.sec_1 .list_1 li .nicheng {
+  position: absolute;
+  right: 1.06666667rem;
+  color: #999;
+  font-size: 0.32rem;
+}
+.sec_1 .list_1 li .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.06666667rem;
+  height: 1.33333333rem;
+  background: url(../img/u_17.png) no-repeat center center;
+  background-size: 0.21333333rem 0.42666667rem;
+}
+.sec_1 .list_1 li .phone {
+  position: absolute;
+  right: 0.46666667rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+.sec_2 {
+  background: #fff;
+  width: 100%;
+}
+.sec_2 h2 {
+  width: 100%;
+  height: 0.93333333rem;
+  line-height: 0.72rem;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  padding-top: 0.21333333rem;
+  background: #f0f0f0;
+  color: #5d5f6a;
+  font-size: 0.32rem;
+}
+.sec_2 .list_2 {
+  width: 100%;
+}
+.sec_2 .list_2 a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.53333333rem 0 0.53333333rem 0.4rem;
+  position: relative;
+}
+.sec_2 .list_2 a li {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+  color: #999;
+  line-height: 0.53333333rem;
+}
+.sec_2 .list_2 a li:first-of-type {
+  height: 0.53333333rem;
+}
+.sec_2 .list_2 a li .addr {
+  width: 8.53333333rem;
+  word-break: break-all;
+}
+.sec_2 .list_2 a .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.06666667rem;
+  height: 100%;
+  background: url(../img/u_17.png) no-repeat center center;
+  background-size: 0.21333333rem 0.42666667rem;
+}
+.sec_3 {
+  background: #fff;
+  width: 100%;
+}
+.sec_3 h2 {
+  width: 100%;
+  height: 0.93333333rem;
+  line-height: 0.72rem;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  padding-top: 0.21333333rem;
+  background: #f0f0f0;
+  color: #5d5f6a;
+  font-size: 0.32rem;
+}
+.sec_3 .list_3 {
+  height: 1.33333333rem;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+  width: 100%;
+}
+.sec_3 .list_3 li {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  border-bottom: 1px solid #eee;
+}
+.sec_3 .list_3 li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 1.33333333rem;
+  box-sizing: border-box;
+  padding-left: 0.8rem;
+  background: url("../img/u_24.png") no-repeat 0 center;
+  background-size: 0.6rem 0.6rem;
+}
+.sec_3 .list_3 li a:hover {
+  text-decoration: none;
+}
+.sec_3 .list_3 li .left {
+  color: #5d5f6a;
+  font-size: 0.37333333rem;
+}
+.sec_3 .list_3 li .right {
+  width: 3.46666667rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  display: none;
+  border-radius: 0.10666667rem;
+  background: #a8a8a8 url("../img/u_23.png") no-repeat 0.26666667rem center;
+  background-size: 0.61333333rem 0.61333333rem;
+  color: #fff;
+  font-size: 0.42666667rem;
+  text-indent: 1.06666667rem;
+  position: absolute;
+  top: 0.13333333rem;
+  right: 1.06666667rem;
+}
+.sec_3 .list_3 li .zhang {
+  position: absolute;
+  right: 1.06666667rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+.sec_3 .list_3 li .right_1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.06666667rem;
+  height: 100%;
+  background: url(../img/u_17.png) no-repeat center center;
+  background-size: 0.21333333rem 0.42666667rem;
+}
+.sec_3 .list_4 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0.4rem;
+}
+.sec_3 .list_4 li {
+  width: 100%;
+  height: 1.86666667rem;
+  background: url("../img/u_25.png") no-repeat 0 0.45333333rem;
+  background-size: 0.6rem 0.6rem;
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+.sec_3 .list_4 li .type {
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+  position: absolute;
+  top: 0.53333333rem;
+  left: 0.8rem;
+}
+.sec_3 .list_4 li .num {
+  font-size: 0.32rem;
+  color: #999;
+  position: absolute;
+  top: 1.33333333rem;
+  left: 0.8rem;
+}
+.sec_3 .list_4 li .mo {
+  display: inline-block;
+  width: 1.30666667rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  border-radius: 0.26666667rem;
+  color: #fff;
+  text-align: center;
+  background: #00d20d;
+  position: absolute;
+  top: 0.53333333rem;
+  right: 0.4rem;
+}
+.sec_3 .add {
+  background: #f0f0f0;
+  padding-top: 0.53333333rem;
+  margin-bottom: 0.53333333rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sec_3 .add a {
+  display: block;
+  width: 4.8rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  border-radius: 0.10666667rem;
+  background: #a8a8a8 url("../img/u_23.png") no-repeat 0.77333333rem center;
+  background-size: 0.61333333rem 0.61333333rem;
+  font-size: 0.42666667rem;
+  color: #fff;
+  text-indent: 1.6rem;
+}
+.sec_3 .add a:hover {
+  text-decoration: none;
+}

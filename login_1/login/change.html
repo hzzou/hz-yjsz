@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>修改密码</title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/change.css" />
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-mvalidate.js"></script>
+</head>
+
+<body>
+<div class="mui-content wrap">
+    <header>
+        <h1><span class="left mui-action-back"></span>修改密码</h1>
+    </header>
+    <form class="mui-input-group" id="form_1">
+        <div class="mui-input-row div_1">
+            <input id="account" class="mui-input tel" placeholder="请输入手机号" type="tel" data-validate="account" data-describedby="account-description" maxlength="11">
+        </div>
+        <div id="account-description"></div>
+        <div class="mui-input-row div_4">
+            <div class="wrap_1">
+                <input id="yan" data-validate="yan" data-describedby="yan-description" class="mui-input yan" placeholder="请输入验证码" type="tel" maxlength="4">
+            </div>
+            <button id="btn_y" class="btn_y" type="button">获取验证码</button>
+        </div>
+        <div id="yan-description"></div>
+        <div class="mui-input-row div_2">
+            <input id="password" class="mui-input pass_1" placeholder="请输入6-14位密码" type="password" data-validate="password" data-describedby="password-description" maxlength="14">
+        </div>
+        <div id="password-description"></div>
+        <div class="div_3">
+            <button id="btn_z" class="btn_z" type="submit">提交</button>
+        </div>
+    </form>
+</div>
+<script src="../js/mui.min.js"></script>
+<script src="../js/change.js"></script>
+</body>
+
+</html>

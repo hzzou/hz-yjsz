@@ -1,0 +1,205 @@
+header {
+  width: 100%;
+  height: 1.17333333rem;
+  position: relative;
+  background: #db584e;
+}
+header h1 {
+  width: 100%;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  text-align: center;
+  font-size: 0.48rem;
+  font-weight: normal;
+  color: #fff;
+}
+header .left {
+  display: inline-block;
+  width: 1.17333333rem;
+  height: 1.17333333rem;
+  background: url("../img/u_22.png") no-repeat center center;
+  background-size: 0.66666667rem 0.66666667rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+header .right {
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  font-size: 0.32rem;
+  color: #fff;
+}
+.sec_1 {
+  width: 100%;
+  height: 4.4rem;
+  background: url("../img/u_33.png") no-repeat center center;
+  background-size: 10rem 4.4rem;
+  position: relative;
+}
+.sec_1 .list_1 {
+  width: 100%;
+  padding-top: 0.26666667rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sec_1 .list_1 li {
+  width: 100%;
+  text-align: center;
+}
+.sec_1 .list_1 li span {
+  display: block;
+}
+.sec_1 .list_1 li span:first-of-type {
+  font-size: 0.64rem;
+  color: #ff7e00;
+}
+.sec_1 .list_1 li span:last-of-type {
+  font-size: 0.32rem;
+  color: #5d5f6a;
+}
+.sec_1 .list_2 {
+  width: 100%;
+  position: absolute;
+  top: 3.06666667rem;
+  left: 0;
+}
+.sec_1 .list_2 li {
+  float: left;
+  width: 33.33333333%;
+  text-align: center;
+}
+.sec_1 .list_2 li span {
+  display: block;
+}
+.sec_1 .list_2 li span:first-of-type {
+  font-size: 0.48rem;
+  color: #ff7e00;
+}
+.sec_1 .list_2 li span:last-of-type {
+  font-size: 0.32rem;
+  color: #5d5f6a;
+}
+.sec_1 .list_2 li:first-of-type {
+  background: url("../img/u_34.png") no-repeat 0.48rem center;
+  background-size: 0.58666667rem 0.85333333rem;
+}
+.sec_1 .list_2 li:nth-of-type(2) {
+  background: url("../img/u_35.png") no-repeat 0.48rem center;
+  background-size: 0.6rem 0.86666667rem;
+}
+.sec_1 .list_2 li:last-of-type {
+  background: url("../img/u_36.png") no-repeat 0.48rem center;
+  background-size: 0.57333333rem 0.85333333rem;
+}
+.sec_2 {
+  width: 100%;
+  height: 11.73333333rem;
+  margin-top: 0.42666667rem;
+  overflow-y: auto;
+}
+.sec_2 .pu {
+  background: #4edba1;
+}
+.sec_2 .fen {
+  background: #6982c0;
+}
+.sec_2 .tong {
+  background: #db584e;
+}
+.sec_2 .yin {
+  background: #ff7e00;
+}
+.sec_2 .jin {
+  background: #ffe400;
+}
+.sec_2 .wrap {
+  height: 1.86666667rem;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+.sec_2 .wrap .left {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.26666667rem;
+  left: 0.42666667rem;
+}
+.sec_2 .wrap .right {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 2.13333333rem;
+}
+.sec_2 .wrap .right .nicheng {
+  position: absolute;
+  top: 0.53333333rem;
+  left: 0;
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+}
+.sec_2 .wrap .right .id {
+  position: absolute;
+  top: 1.14666667rem;
+  left: 0;
+  font-size: 0.32rem;
+  color: #999;
+}
+.sec_2 .wrap .right .dengji {
+  position: absolute;
+  top: 0.66666667rem;
+  right: 0;
+  width: 1.6rem;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+  border-radius: 0.26666667rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.32rem;
+}
+.sec_2 .list_1 {
+  width: 100%;
+}
+.sec_2 .list_1 .wrap {
+  background: #fff;
+}
+.sec_2 .list_1 .li_1 {
+  margin-top: 1px;
+  width: 100%;
+  overflow: hidden;
+}
+.sec_2 .list_1 .li_1 .right {
+  width: 7.44rem;
+}
+.sec_2 .list_1 .li_1 .list_2 {
+  margin-top: 1px;
+  float: right;
+  width: 9.14666667rem;
+}
+.sec_2 .list_1 .li_1 .list_2 .wrap {
+  background: #fbfbfb;
+}
+.sec_2 .list_1 .li_1 .list_2 .li_2 {
+  width: 100%;
+  overflow: hidden;
+}
+.sec_2 .list_1 .li_1 .list_2 .li_2 .right {
+  width: 6.58666667rem;
+}
+.sec_2 .list_1 .li_1 .list_3 {
+  margin-top: 1px;
+  float: right;
+  width: 8.29333333rem;
+}
+.sec_2 .list_1 .li_1 .list_3 .wrap {
+  background: #f8f8f9;
+}
+.sec_2 .list_1 .li_1 .list_3 .li_3 {
+  width: 100%;
+}
+.sec_2 .list_1 .li_1 .list_3 .li_3 .right {
+  width: 5.70666667rem;
+}

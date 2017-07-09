@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/lian.css">
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/jquery.cxselect.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <title>联盟商</title>
+</head>
+<body>
+<header>
+    <h1><span class="left mui-action-back"></span>联盟商
+        <span class="right"><span class="id_1">ID:</span><span class="id">123456789</span></span>
+    </h1>
+</header>
+<section class="sec_1">
+    <ul class="list">
+        <li  class="li_1">
+            <p id="sel_1"><span class="sp_1">所属行业</span>
+                <select class="select_1" data-first-title="选择行业"></select>
+            </p>
+        </li>
+        <li>
+            <p><span class="sp_1">营业执照号</span><input type="text" class="text_1" placeholder="请输入营业执照注册号"></p>
+        </li>
+        <li>
+            <p><span class="sp_1">店铺名称</span><input type="text" class="text_2" placeholder="请输入企业名称"></p>
+        </li>
+        <li>
+            <p><span class="sp_1">法定代表人</span><input type="text" class="text_3" placeholder="请输入营业执照的法人名字"></p>
+        </li>
+        <li>
+            <p><span class="sp_1">运营者姓名</span><input type="text" class="text_4" placeholder="请输入真实姓名"></p>
+        </li>
+        <li>
+            <p><span class="sp_1">运营者身份证</span><input type="text" class="text_5" placeholder="请输入身份证号"></p>
+        </li>
+        <li class="li_2">
+            <p id="detail"><span class="sp_1">所在地区</span>
+                <select class="first" data-first-title="选择省"></select>
+                <select class="second" data-first-title="选择市"></select>
+                <select class="third" data-first-title="选择县/区"></select>
+                <select class="four" data-first-title="选择街道"></select>
+            </p>
+            <p id="detail_1"><span class="sp_1">详细地址</span><input name="" placeholder="请输入街道后详细地址" id="de"></p>
+        </li>
+        <li>
+            <div class="div_1">
+                <p>营业执照照片</p>
+                <span class="sp_1">(jpg格式，大小不超过2M)</span>
+                <a href="javascript:;" class="upload">
+                    <img class="chuan" src="../img/ben.png" alt="图片">
+                    <input type="file" class="ipt_1">选择文件
+                </a>
+            </div>
+        </li>
+    </ul>
+    <div class="div_2">
+        <button class="btn_2">提交审核</button>
+    </div>
+</section>
+<script src="../js/lian.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/dai.css">
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/jquery.livequery.js"></script>
+    <script src="../js/jquery.cxselect.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <title>申请代理</title>
+</head>
+<body>
+    <header>
+        <h1><span class="left mui-action-back"></span>申请代理
+        <span class="right"><span class="id_1">ID:</span><span class="id">123456789</span></span>
+    </h1>
+    </header>
+    <section class="sec_1">
+        <img src="../img/app.jpg" alt="">
+    </section>
+    <section class="sec_2">
+        <ul class="list">
+            <h2>代理类型</h2>
+            <li>
+                <span class="radio active"></span>
+                <span class="all" value="all">全国代理</span>
+            </li>
+            <li>
+                <span class="radio"></span>
+                <span class="part" value="part">区域代理</span>
+            </li>
+        </ul>
+        <div class="div_2">
+            <p id="detail">
+                <span class="sp_1">所在地区</span>
+                <select class="first select" data-value="选择省"></select>
+                <select class="second select" data-value="选择市"></select>
+                <select class="third select" data-value="选择县/区"></select>
+                <select class="four select" data-value="选择街道"></select>
+            </p>
+        </div>
+        <div class="div_1">
+            <p><span class="sp_1">真实姓名</span><input type="text" class="name_1" placeholder="请输入真实姓名"></p>
+        </div>
+        <ul class="list_2">
+            <li>
+                <p><span class="sp_1">代理份数</span><input type="text" placeholder="请输入代理份数" class="num"></p>
+            </li>
+            <li>
+                <p id="hang"><span>所属行业</span>
+                    <select class="select_1" data-value="选择行业"></select>
+                </p>
+            </li>
+        </ul>
+        <div class="div_3">
+            <button class="btn_1">提交审核</button>
+        </div>
+    </section>
+    <script src="../js/dai.js"></script>
+</body>
+</html>

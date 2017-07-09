@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>签到</title>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/sign.css">
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/mui.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <h1><span class="left mui-action-back"></span>签到<span class="right"><span class="id_1">ID:</span><span
+                class="id">123456789</span></span></h1>
+    </header>
+    <section class="sec_1">
+        <div class="div_1">
+            <p>温馨提示:处于未激活状态，签到不可铜元转金元</p>
+        </div>
+        <div class="wrap_1">
+            <div class="div_2">激活剩余天数:<span class="remain">12天</span></div>
+            <div class="div_3">激活到期日:<span class="last">2017-03-21&nbsp;21:21</span>
+            </div>
+            <a href="">去激活</a>
+        </div>
+    </section>
+    <section class="sec_2">
+        <div class="wrap_btn">
+            <button type="button" class="btn_1 active">签到</button>
+            <span class="sp_1"></span>
+            <span class="sp_2"></span>
+        </div>
+    </section>
+    <div id="my_date">
+    </div>
+</div>
+<script>
+    function getCountDays(e) { //获取当前日期所在的月有多少天
+        var curDate = new Date(e);
+        var curMonth = curDate.getMonth();
+        curDate.setMonth(curMonth + 1);
+        curDate.setDate(0);
+        return curDate.getDate();
+    }
+
+    function GetDateStr(AddDayCount) {
+        var dd = new Date().toLocaleString();
+        dd.setDate(dd.getDate() + AddDayCount); //获取AddDayCount天后的日期
+        var y = dd.getFullYear();
+        var m = dd.getMonth() + 1; //获取当前月份的日期
+        var d = dd.getDate();
+        return y + "-" + m + "-" + d;
+    }
+
+    function calendar(e) {
+        if (e == 'now') e = GetDateStr(0);
+
+        var now_date = e;
+        var week_no = new Date(now_date).getDay();
+        var date_size = getCountDays(now_date);
+        var my_date = $('#my_date');
+
+        var table = $('<table border="0"><thead><tr><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>');
+
+
+        var tbody = table.find('tbody');
+        var td = tbody.find('td');
+        var pre_date = now_date.split("/");
+        pre_date[1] = Number(pre_date[1]);
+        if (pre_date[1] < 1) {
+            pre_date[0] = Number(pre_date[0]);
+            pre_date[1] = 12;
+        }
+        if (pre_date[1] < 10) {
+            pre_date[1] = '0' + pre_date[1]
+        }
+
+        pre_date = pre_date[0] + "-" + pre_date[1] + "-" + pre_date[2];
+
+        var pre_week_no = new Date(pre_date).getDay();
+        var pre_date_size = getCountDays(pre_date);
+        for (var i = 0; i < date_size; i++) {
+            td.eq(week_no + i).html(i + 1);
+        }
+        for (var i = 0; i < week_no; i++) {
+            td.eq(i).html(pre_date_size - week_no + i + 1);
+            td.eq(i).css('color', '#ccc');
+        }
+        for (var i = week_no + date_size, j = 1; i < 42; i++, j++) {
+            td.eq(i).html(j);
+            td.eq(i).css('color', '#ccc');
+        }
+        my_date.append(table);
+    }
+    var l = new Date();
+    var y = l.getFullYear();
+    var m = l.getMonth() + 1; //获取当前月份的日期
+    var d = l.getDate();
+    var md = y + "/" + m + "/" + d;
+    calendar(md);
+</script>
+<script src="../js/sign.js"></script>
+</body>
+</html>

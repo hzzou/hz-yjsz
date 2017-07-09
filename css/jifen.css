@@ -1,0 +1,311 @@
+header {
+  width: 100%;
+  height: 1.17333333rem;
+  position: relative;
+  background: #db584e;
+  color: #fff;
+}
+header h1 {
+  width: 100%;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  text-align: center;
+  font-size: 0.48rem;
+  font-weight: normal;
+}
+header .left {
+  display: inline-block;
+  width: 1.17333333rem;
+  height: 1.17333333rem;
+  background: url("../img/u_22.png") no-repeat center center;
+  background-size: 0.66666667rem 0.66666667rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+header .right {
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  font-size: 0.32rem;
+}
+.sec_1 {
+  width: 100%;
+}
+.sec_1 .list_1 {
+  width: 100%;
+  box-sizing: border-box;
+  height: 1.2rem;
+}
+.sec_1 .list_1 li {
+  float: left;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  box-sizing: border-box;
+  width: 33.33333333%;
+  text-align: center;
+  padding: 0.18666667rem 0.66666667rem 0;
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+  position: relative;
+}
+.sec_1 .list_1 li .sp_1 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.sec_1 .list_1 li .sp_2 {
+  display: inline-block;
+  background: #ddd;
+  width: 1px;
+  height: 0.8rem;
+  position: absolute;
+  top: 0.18666667rem;
+  right: 0;
+}
+.sec_1 .list_1 .active {
+  border-bottom: 0.05333333rem solid #db584e;
+  color: #db584e;
+}
+.sec_1 .wrap .jin_1,
+.sec_1 .wrap .tong_1 {
+  width: 100%;
+}
+.sec_1 .wrap .jin_1 .banner,
+.sec_1 .wrap .tong_1 .banner {
+  width: 100%;
+  height: 4.26666667rem;
+  overflow: hidden;
+  position: relative;
+}
+.sec_1 .wrap .jin_1 .banner img,
+.sec_1 .wrap .tong_1 .banner img {
+  width: 100%;
+  height: 4.26666667rem;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 {
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-wrapper,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-wrapper,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-wrapper,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-wrapper .swiper-slide,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-wrapper .swiper-slide,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-wrapper .swiper-slide,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-pagination-bullets,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-pagination-bullets,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-pagination-bullets,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-pagination-bullets {
+  bottom: 0.26666667rem !important;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-pagination-bullet,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-pagination-bullet,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-pagination-bullet,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-pagination-bullet {
+  width: 0.26666667rem !important;
+  height: 0.26666667rem !important;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-pagination-bullet-active,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-pagination-bullet-active,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-pagination-bullet-active,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-pagination-bullet-active {
+  background: #db584e;
+}
+.sec_1 .wrap .jin_1 .banner .swiper-container_1 .swiper-pagination,
+.sec_1 .wrap .tong_1 .banner .swiper-container_1 .swiper-pagination,
+.sec_1 .wrap .jin_1 .banner .swiper-container_2 .swiper-pagination,
+.sec_1 .wrap .tong_1 .banner .swiper-container_2 .swiper-pagination {
+  width: 100%;
+}
+.sec_1 .wrap .jin_1 .div_1,
+.sec_1 .wrap .tong_1 .div_1 {
+  background: #fff;
+  width: 100%;
+  height: 3.2rem;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list,
+.sec_1 .wrap .tong_1 .div_1 .jin_list,
+.sec_1 .wrap .jin_1 .div_1 .tong_list,
+.sec_1 .wrap .tong_1 .div_1 .tong_list {
+  width: 100%;
+  height: 1.33333333rem;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list li,
+.sec_1 .wrap .tong_1 .div_1 .jin_list li,
+.sec_1 .wrap .jin_1 .div_1 .tong_list li,
+.sec_1 .wrap .tong_1 .div_1 .tong_list li {
+  float: left;
+  width: 33.33333333%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 0.4rem;
+  position: relative;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list li span,
+.sec_1 .wrap .tong_1 .div_1 .jin_list li span,
+.sec_1 .wrap .jin_1 .div_1 .tong_list li span,
+.sec_1 .wrap .tong_1 .div_1 .tong_list li span {
+  display: block;
+  width: 100%;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list li span:first-of-type,
+.sec_1 .wrap .tong_1 .div_1 .jin_list li span:first-of-type,
+.sec_1 .wrap .jin_1 .div_1 .tong_list li span:first-of-type,
+.sec_1 .wrap .tong_1 .div_1 .tong_list li span:first-of-type {
+  font-size: 0.42666667rem;
+  color: #ff7e00;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list li span:last-of-type,
+.sec_1 .wrap .tong_1 .div_1 .jin_list li span:last-of-type,
+.sec_1 .wrap .jin_1 .div_1 .tong_list li span:last-of-type,
+.sec_1 .wrap .tong_1 .div_1 .tong_list li span:last-of-type {
+  font-size: 0.37333333rem;
+  color: #5d5f6a;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list li .right,
+.sec_1 .wrap .tong_1 .div_1 .jin_list li .right,
+.sec_1 .wrap .jin_1 .div_1 .tong_list li .right,
+.sec_1 .wrap .tong_1 .div_1 .tong_list li .right {
+  display: inline-block;
+  width: 1px;
+  height: 0.8rem;
+  background: #ddd;
+  position: absolute;
+  right: 0;
+  top: 0.53333333rem;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1 li,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1 li,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1 li,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 li {
+  width: 4.26666667rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  box-sizing: border-box;
+  border: 0.04rem solid #a0a0a0;
+  border-radius: 0.13333333rem;
+  font-size: 0.37333333rem;
+  text-align: center;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1 li a,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1 li a,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1 li a,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.13333333rem;
+  color: #5d5f6a;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1 li a:hover,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1 li a:hover,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1 li a:hover,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 li a:hover {
+  text-decoration: none;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1 .active,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1 .active,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1 .active,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 .active {
+  background: #00d20d;
+  border: none;
+  border-radius: 0.13333333rem;
+}
+.sec_1 .wrap .jin_1 .div_1 .jin_list_1 .active a,
+.sec_1 .wrap .tong_1 .div_1 .jin_list_1 .active a,
+.sec_1 .wrap .jin_1 .div_1 .tong_list_1 .active a,
+.sec_1 .wrap .tong_1 .div_1 .tong_list_1 .active a {
+  color: #fff;
+}
+.sec_1 .wrap .jin_1 .div_2,
+.sec_1 .wrap .tong_1 .div_2 {
+  width: 100%;
+  overflow-y: auto;
+  height: 8rem;
+  background: #fff;
+  margin-top: 0.4rem;
+}
+.sec_1 .wrap .jin_1 .div_2 .list_2,
+.sec_1 .wrap .tong_1 .div_2 .list_2 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.53333333rem;
+}
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding: 0.26666667rem 0;
+}
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 {
+  width: 100%;
+}
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li {
+  width: 100%;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+  font-size: 0.32rem;
+  color: #5d5f6a;
+}
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li .type_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li .type_1,
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li .cash_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li .cash_1,
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li .re_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li .re_1,
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li .explain_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li .explain_1,
+.sec_1 .wrap .jin_1 .div_2 .list_2 .li_1 .list_3 li .time_1,
+.sec_1 .wrap .tong_1 .div_2 .list_2 .li_1 .list_3 li .time_1 {
+  color: #999;
+}
+.sec_1 .wrap .tong_1 {
+  display: none;
+}
+.sec_1 .wrap .yin_1 {
+  display: none;
+  width: 100%;
+  height: 15.36rem;
+  background: url("../img/u_31.png") no-repeat center center;
+  background-size: 100% 15.36rem;
+  position: relative;
+}
+.sec_1 .wrap .yin_1 p {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #999;
+  position: absolute;
+  left: 0;
+  top: 8rem;
+  bottom: 0;
+  right: 0;
+}

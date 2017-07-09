@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/give.css">
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery.livequery.js"></script>
+    <title>积分转赠</title>
+</head>
+<body>
+<header>
+    <h1><span class="left mui-action-back"></span>积分转赠</h1>
+</header>
+<section class="sec_1">
+    <div class="info">
+        <p>请仔细核对对方账户信息,一旦转赠则不可取消</p>
+    </div>
+    <div class="banner">
+        <ul class="list">
+            <li>请仔细核对转赠账户的信息，一经赠送，不可逆转</li>
+            <li>转赠的积分为100及100的整数倍数</li>
+        </ul>
+    </div>
+</section>
+<section class="sec_2">
+    <ul class="list">
+        <li><span class="sp_1">当前积分</span><span class="sp_2">66.6</span></li>
+        <li><span class="sp_1">手机号</span><input id="user" type="tel" placeholder="请输入手机号" maxlength="11" pattern="\d*" /></li>
+        <li><span class="sp_1">赠送积分</span><input type="tel" placeholder="请输入积分" maxlength="10" pattern="\d*" /></li>
+    </ul>
+</section>
+<section class="sec_3">
+    <div class="div_1">
+        <button type="button">确认转赠</button>
+    </div>
+</section>
+<script src="../js/give.js"></script>
+</body>
+</html>

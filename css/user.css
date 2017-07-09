@@ -1,0 +1,302 @@
+header {
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+header h1 {
+  width: 100%;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  background: #db584e;
+  color: #fff;
+  font-size: 0.48rem;
+  text-align: center;
+}
+header .div_wrap {
+  width: 100%;
+  height: 3.28rem;
+  background: url("../img/u_1.png") no-repeat center center;
+  background-size: 100% 3.28rem;
+}
+header .div_wrap .div_1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header .div_wrap .div_1 .wrap_a {
+  flex-basis: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 0.05333333rem;
+}
+header .div_wrap .div_1 .wrap_a a {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 0.2rem;
+}
+header .div_wrap .div_1 .wrap_a a img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: none;
+}
+header .div_wrap .div_1 .wrap_a p span {
+  font-size: 0.37333333rem;
+  color: #fff;
+}
+header .div_wrap .div_1 .wrap_a .denji {
+  display: inline-block;
+  background: #ffd237 url("../img/u_3.png") no-repeat 0.06666667rem center;
+  background-size: 0.26666667rem 0.25333333rem;
+  height: 0.32rem;
+  padding: 0.06666667rem 0.13333333rem 0.06666667rem 0;
+  line-height: 0.32rem;
+  border-radius: 0.21333333rem;
+  color: #fff;
+  font-size: 0.32rem;
+  text-indent: 0.4rem;
+  position: absolute;
+  left: 5.84rem;
+  top: 1.84rem;
+}
+header .div_wrap .div_2 {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.13333333rem;
+}
+header .div_wrap .div_2 .tuijian_1,
+header .div_wrap .div_2 .id_1 {
+  float: left;
+  font-size: 0.26666667rem;
+  color: #fff;
+}
+header .div_wrap .div_2 .tuijian {
+  padding-right: 0.4rem;
+  font-size: 0.26666667rem;
+}
+header .div_wrap .div_2 .id_1 {
+  padding-left: 0.4rem;
+  font-size: 0.26666667rem;
+}
+.sec_1 {
+  width: 100%;
+  height: 2.37333333rem;
+  background: #fff;
+}
+.sec_1 .list_1 {
+  width: 100%;
+  height: 100%;
+}
+.sec_1 .list_1 a {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0.26666667rem 0.74666667rem 0;
+}
+.sec_1 .list_1 a li {
+  float: left;
+  height: 100%;
+}
+.sec_1 .list_1 a li:first-of-type .wrap {
+  background: url("../img/u_4.png") no-repeat center center;
+  background-size: 1.86666667rem 1.86666667rem;
+}
+.sec_1 .list_1 a li:nth-of-type(2) .wrap {
+  background: url("../img/u_5.png") no-repeat center center;
+  background-size: 1.86666667rem 1.86666667rem;
+}
+.sec_1 .list_1 a li:last-of-type .wrap {
+  background: url("../img/u_6.png") no-repeat center center;
+  background-size: 1.86666667rem 1.86666667rem;
+}
+.sec_1 .list_1 a li .wrap {
+  display: inline-block;
+  position: relative;
+  width: 1.86666667rem;
+  height: 1.86666667rem;
+  border-radius: 50%;
+}
+.sec_1 .list_1 a li .wrap .cir_1 {
+  color: #fff;
+  font-size: 0.26666667rem;
+  position: absolute;
+  top: 0.58666667rem;
+  left: 0.98666667rem;
+}
+.sec_1 .list_1 a li .wrap .jin,
+.sec_1 .list_1 a li .wrap .yin,
+.sec_1 .list_1 a li .wrap .tong {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  font-size: 0.26666667rem;
+  position: absolute;
+  text-align: center;
+  top: 1.06666667rem;
+}
+.sec_2 {
+  background: #fff;
+  width: 100%;
+  height: 1.86666667rem;
+  margin-top: 0.21333333rem;
+}
+.sec_2 .list_2 {
+  width: 100%;
+  height: 100%;
+}
+.sec_2 .list_2 li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  height: 100%;
+}
+.sec_2 .list_2 li:first-of-type {
+  background: url("../img/u_7.png") no-repeat center 0.4rem;
+  background-size: 0.56rem 0.50666667rem;
+}
+.sec_2 .list_2 li:nth-of-type(2) {
+  background: url("../img/u_8.png") no-repeat center 0.4rem;
+  background-size: 0.68rem 0.56rem;
+}
+.sec_2 .list_2 li:nth-of-type(3) {
+  background: url("../img/u_9.png") no-repeat center 0.4rem;
+  background-size: 0.54666667rem 0.58666667rem;
+}
+.sec_2 .list_2 li:nth-of-type(4) {
+  background: url("../img/u_10.png") no-repeat center 0.4rem;
+  background-size: 0.70666667rem 0.56rem;
+}
+.sec_2 .list_2 li a {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.sec_2 .list_2 li a .qian,
+.sec_2 .list_2 li a .ren,
+.sec_2 .list_2 li a .ding,
+.sec_2 .list_2 li a .tui {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.26666667rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0.42666667rem;
+  color: #5d5f6a;
+}
+.sec_3 {
+  background: #fff;
+  width: 100%;
+  margin-top: 0.21333333rem;
+  margin-bottom: 1.73333333rem;
+}
+.sec_3 .list_3 {
+  width: 100%;
+}
+.sec_3 .list_3 li {
+  width: 100%;
+  box-sizing: border-box;
+  height: 1.08rem;
+  line-height: 1.06666667rem;
+  border-bottom: 1px solid #eee;
+  padding-left: 0.98666667rem;
+}
+.sec_3 .list_3 li:first-of-type {
+  background: url("../img/u_11.png") no-repeat 0.4rem center;
+  background-size: 0.41333333rem 0.42666667rem;
+}
+.sec_3 .list_3 li:nth-of-type(2) {
+  background: url("../img/u_12.png") no-repeat 0.4rem center;
+  background-size: 0.34666667rem 0.48rem;
+}
+.sec_3 .list_3 li:nth-of-type(3) {
+  background: url("../img/u_13.png") no-repeat 0.4rem center;
+  background-size: 0.42666667rem 0.4rem;
+}
+.sec_3 .list_3 li:nth-of-type(4) {
+  background: url("../img/u_14.png") no-repeat 0.4rem center;
+  background-size: 0.44rem 0.38666667rem;
+}
+.sec_3 .list_3 li:nth-of-type(5) {
+  background: url("../img/u_15.png") no-repeat 0.4rem center;
+  background-size: 0.37333333rem 0.37333333rem;
+}
+.sec_3 .list_3 li:last-of-type {
+  background: url("../img/u_16.png") no-repeat 0.4rem center;
+  background-size: 0.41333333rem 0.42666667rem;
+  border: none;
+}
+.sec_3 .list_3 li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #5d5f6a;
+  font-size: 0.32rem;
+}
+.sec_3 .list_3 li a .right {
+  display: inline-block;
+  float: right;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background: url("../img/u_17.png") no-repeat center center;
+  background-size: 0.21333333rem 0.42666667rem;
+}
+.sec_4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.33333333rem;
+  background: #fff;
+}
+.sec_4 .list_4 {
+  width: 100%;
+  height: 100%;
+}
+.sec_4 .list_4 li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.sec_4 .list_4 li a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sec_4 .list_4 li a span {
+  position: absolute;
+  top: 0.85333333rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #5d5f6a;
+  font-size: 0.26666667rem;
+}
+.sec_4 .list_4 li:nth-of-type(1) a {
+  background: url(../img/u_18.png) no-repeat center 0.24rem;
+  background-size: 0.56rem 0.49333333rem;
+}
+.sec_4 .list_4 li:nth-of-type(2) a {
+  background: url(../img/u_19.png) no-repeat center 0.24rem;
+  background-size: 0.50666667rem 0.50666667rem;
+}
+.sec_4 .list_4 li:nth-of-type(3) a {
+  background: url(../img/u_20.png) no-repeat center 0.24rem;
+  background-size: 0.56rem 0.50666667rem;
+}
+.sec_4 .list_4 li:nth-of-type(4) a {
+  background: url(../img/u_21_1.png) no-repeat center 0.24rem;
+  background-size: 0.53333333rem 0.50666667rem;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>注册</title>
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/regi.css" />
+    <script src="../js/flexible.debug.js"></script>
+    <script src="../js/flexible_css.debug.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-mvalidate.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <h1><span class="left mui-action-back"></span>注册</h1>
+    </header>
+    <div class="mui-content">
+        <form class="mui-input-group" id="form_1">
+            <div class="mui-input-row div_0">
+                <div class="wrap_0">
+                    <input id='tui' data-validate="tui" maxlength="11" data-describedby="tui-description" type="text" class="mui-input" />
+                </div>
+            </div>
+            <div id="tui-description"></div>
+            <div class="mui-input-row div_1">
+                <input id='account' type="tel" class="mui-input tel" placeholder="请输入手机号" data-validate="account" data-describedby="account-description" maxlength="11">
+            </div>
+            <div id="account-description"></div>
+            <div class="mui-input-row div_4">
+                <div class="wrap_1">
+                    <input id="yan" data-validate="yan" data-describedby="yan-description" type="tel" class="mui-input yan" placeholder="请输入验证码" maxlength="4">
+                </div>
+                <button id="yan_y" class="btn_y" type="button" >获取验证码</button>
+            </div>
+            <div id="yan-description"></div>
+            <div class="mui-input-row div_2">
+                <input id='password' name="password" class="pass_1 mui-input" placeholder="请输入密码" data-validate="password" data-describedby="password-description" type="password" maxlength="14" >
+            </div>
+            <div id="password-description"></div>
+            <div class="div_3">
+                <button type="submit"  id='reg'>注册</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="../js/mui.min.js"></script>
+<script src="../js/regi.js"></script>
+</body>
+
+</html>
